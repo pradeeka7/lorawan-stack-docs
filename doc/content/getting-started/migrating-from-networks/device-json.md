@@ -30,7 +30,7 @@ weight: 1
 | `session.last_f_cnt_up` | int | Optional, frame counter uplink. [More info]({{< ref "reference/api/end_device#message:MACSettings" >}}) |
 | `session.last_n_f_cnt_down` | int | Optional, frame counter downlinks. [More info]({{< ref "reference/api/end_device#message:MACSettings" >}}) |
 
-> Note: The dots in the **Field** column imply an embedded object. For example, `root_keys.nwk_app.key` must be set as: 
+>**Note:** The dots in the **Field** column imply an embedded object. For example, `root_keys.nwk_app.key` must be set as: 
 > ```
 > "root_keys": {
 >   "nwk_key:": {
@@ -42,6 +42,8 @@ weight: 1
 ## Example `devices.json`
 
 Below is an example `devices.json` file. The file may contain multiple devices, stored as different JSON objects.
+
+<details><summary>Example of devices.json file</summary>
 
 ```json
 {
@@ -94,5 +96,6 @@ Below is an example `devices.json` file. The file may contain multiple devices, 
   }
 }
 ```
+</details>
 
 For more information on configuring MAC settings, see [Fine-tuning MAC Settings]({{< ref "getting-started/migrating-from-v2/configure-mac-settings" >}}).

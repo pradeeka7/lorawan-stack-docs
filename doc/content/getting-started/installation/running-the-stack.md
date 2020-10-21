@@ -26,7 +26,7 @@ $ docker-compose run --rm stack is-db init
 $ docker-compose run --rm stack is-db create-tenant
 ```
 
-> This will take the Tenant ID from the configuration.
+>**Note:** This will take the Tenant ID from the configuration.
 
 We'll now create an initial `admin` user. Make sure to give it a good password.
 
@@ -48,9 +48,9 @@ $ docker-compose run --rm stack is-db create-oauth-client \
   --redirect-uri "code"
 ```
 
-We do the same for the console. 
+We do the same for the Console. 
 
-> For `--secret`, make sure to enter the same value as you set for `console.oauth.client-secret` in the [Configuration]({{< relref "configuration" >}}) step.
+> For `--secret`, make sure to enter the same value as you set for `console.oauth.client-secret` in the `ttn-lw-stack-docker.yml` file in the [Configuration]({{< relref "configuration" >}}) step.
 
 ```bash
 $ docker-compose run --rm stack is-db create-oauth-client \

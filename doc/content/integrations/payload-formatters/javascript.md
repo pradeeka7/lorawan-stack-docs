@@ -7,7 +7,11 @@ Javascript payload formatters allow you to write your own functions to encode or
 
 <!--more-->
 
-The payload formatters should be simple and lightweight. Use arithmetic operations and bit shifts to convert binary data to fields. Avoid using non-trivial logic or polyfills. The runtime does not support modules or any input/output other than defined below.
+Tips:
+- The payload formatters should be simple and lightweight. 
+- Use arithmetic operations and bit shifts to convert binary data to fields. 
+- Avoid using non-trivial logic or polyfills. 
+- The runtime does not support modules or any input/output other than defined below.
 
 ## Decode Uplink Function
 

@@ -4,10 +4,14 @@ description: ""
 aliases: [/guides/connecting-gateways/multitechconduit]
 ---
 
-The [MultiTech MultiConnect® Conduit™](http://www.multitech.net/developer/products/multiconnect-Conduit-platform/) is a configurable, scalable cellular communications gateway for industrial IoT applications. The technical specifications of this Conduit can be found in the software guide in the [official documentation](http://www.multitech.net/developer/products/multiconnect-conduit-platform/conduit/) page.
+The [MultiTech MultiConnect® Conduit™](http://www.multitech.net/developer/products/multiconnect-Conduit-platform/) is a configurable, scalable cellular communications gateway for industrial IoT applications. 
 
 This guide will help you set up the Multitech Conduit gateway to communicate over {{%tts%}}.
+
 <!--more-->
+
+The technical specifications of this Conduit can be found in the software guide in the [official documentation](http://www.multitech.net/developer/products/multiconnect-conduit-platform/conduit/) page.
+
 {{< figure src="001_Multitech_Conduit_AEP.png" alt="MultiTech MultiConnect Conduit AEP Gateway" >}}
 
 ## Prerequisites
@@ -22,7 +26,7 @@ This guide will help you set up the Multitech Conduit gateway to communicate ove
 
 Create a gateway by following the instructions for [Adding Gateways]({{< ref "/gateways/adding-gateways" >}}).
 
-> Note: The gateway EUI can be found at the bottom of the gateway under the field &quot;NODE LORA&quot;.
+>**Note:** The gateway EUI can be found at the bottom of the gateway under the field &quot;NODE LORA&quot;.
 
 ## Configuration using a Terminal
 
@@ -42,7 +46,7 @@ $ curl -XGET \
     -H "Authorization: Bearer {GTW_API_KEY}" > ~/global_conf.json
 ```
 
-> Note: Replace the required fields in the above command and run it.
+>**Note:** Replace the required fields in the above command and run it.
 
 Once the `global_conf.json` file is generated, you will need to add this to your gateway. In a web browser, open the gateway’s configuration page by navigating to its IP Address obtained from the network it is connected to. Once logged in, you can configure the gateway to connect to {{%tts%}} by following the steps below:
 
@@ -119,4 +123,4 @@ Do the following to upgrade the firmware on your device:
 - A progress bar appears indicating the status of the upgrade. When the upgrade is completed, your device reboots.
 - After the firmware upgrade is completed, verify your configuration to ensure that it is same as what you expected.
 
-> Note: The new firmware is written into flash memory. It may take up to 10 minutes to upgrade the firmware. Do not interrupt the devices&apos; power or press the reset button during this time.
+>**Note:** The new firmware is written into flash memory. It may take up to 10 minutes to upgrade the firmware. Do not interrupt the devices&apos; power or press the reset button during this time.

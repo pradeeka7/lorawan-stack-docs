@@ -5,7 +5,7 @@ summary: Webhook templates define a webhook integration that is not created (yet
 weight: 1
 ---
 
-Webhook templates define a webhook integration that is not created (yet). Templates allows for using common values for many webhooks, such as a common base URLs.
+Webhook templates define a webhook integration that is not yet created. Templates allow using common values for many webhooks, such as a common base URLs.
 
 Webhook templates are primarily targeted at service providers who want to create specialized webhook integrations for the users of {{% tts %}}.
 
@@ -21,4 +21,4 @@ Webhook templates are primarily targeted at service providers who want to create
 
 Webhook templates can be used to pre fill the common values of a webhook integration such as the base URL, the message paths or the provided headers. They also allow input from the user, in the form of fillable fields, which are then replaced in the template by the Console in order to obtain the concrete webhook. 
 
-See [Template Format]({{< relref "format.md" >}}) for more information on the contents of a webhook template and  [Template Instantiation]({{< relref "instantiation.md" >}}) for more information of the process through which a webhook template, with user input, is converted into a webhook integration.
+See [Template Format]({{< relref "format.md" >}}) for more information on the contents of a webhook template and  [Template Instantiation]({{< relref "instantiation.md" >}}) for more information of the process through which a webhook template, with user input, is being converted into a webhook integration.
