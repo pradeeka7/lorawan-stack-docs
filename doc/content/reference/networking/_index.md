@@ -20,7 +20,15 @@ The following table lists the default ports used.
 | Management, data, events | gRPC | API key, token | 1884 | 8884 |
 | Management | HTTP | API key, token | 1885 | 8885 |
 | Backend Interfaces | HTTP | Custom | N/A | 8886 |
-| Basic Station LNS | HTTP | Auth Token, Custom | 1887 | 8887 |
+| LoRa Basic Station LNS | Web Sockets | Auth Token, Custom | 1887 | 8887 |
+
+### Enterprise-only Ports
+
+The following table lists the default ports for listeners available only in enterprise deployments.
+
+| **Purpose** | **Protocol** | **Authentication** | **Port** | **Port (TLS)** |
+| --- | --- | --- | --- | --- | 
+| Tabs Hubs LNS | Web Sockets | Auth Token, Custom | 1888 | 8888 |
 
 ## Service Discovery
 
