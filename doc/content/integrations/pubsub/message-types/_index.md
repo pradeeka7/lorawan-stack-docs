@@ -28,4 +28,4 @@ Enabling event messaging also allows you to manually configure a **Sub topic** f
 
 ## Message Format
 
-JSON messages sent or received by the Application Server are defined in [Data Formats]({{< ref "/integrations/data-formats" >}}).
+JSON messages sent or received by the Application Server are defined in [Data Formats]({{< ref "/reference/data-formats" >}}).
