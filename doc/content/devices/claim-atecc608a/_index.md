@@ -28,18 +28,7 @@ Go to the **Applications** and select your application.
 
 Go to **Devices** and click **Import Devices** button in the upper right. 
 
-<<<<<<< HEAD
-1. Go to the **Applications** and select the application from prerequisite #4
-2. Click **Import Devices**
-3. As **Format**, select **Microchip ATECC608A-TNGLORA Manifest File**
-4. Click **Select a file** and open your manifest file (prerequisite 2)
-5. If you want to make your device available for claiming by other users, check **Set claim authentication code**
-  {{< figure src="import-devices-settings.png" alt="Import settings" >}}   
-6. Click **Create Devices**
-  {{< figure src="import-devices-progress.png" alt="Import progress" >}}
-=======
 As **Format**, select **Microchip ATECC608A-TNGLORA Manifest File**.
->>>>>>> doc: Fixing readability across Devices section
 
 Click **Select a file** and open your manifest file. If you want to make your device available for claiming by other users, check **Set claim authentication code**.
 
