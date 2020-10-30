@@ -1,7 +1,7 @@
 ---
-title: "Create JSON file to be imported"
+title: "Importable JSON File Reference"
 description: ""
-weight: 70
+weight: 5
 ---
 
 {{% tts %}} allows you to import devices from other networks using a JSON file describing those devices. Devices imported this way can be migrated without the need for a rejoin.
